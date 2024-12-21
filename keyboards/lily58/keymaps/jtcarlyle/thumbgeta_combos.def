@@ -1,0 +1,82 @@
+// Thumb Singeta combos
+COMBO_REF_LAYER(_SINGETA, _SINGETA)
+
+// Left gyaku shift
+// home
+SUBS(KN_HO,   "ho",    KN_NO,   ST_ENT) // SUBS uses SEND_STRING to output the given string.
+SUBS(KN_ZI,   "zi",    KN_TO,   ST_ENT)
+SUBS(KN_RE,   "re",    KN_KA,   ST_ENT)
+SUBS(KN_MO,   "mo",    KN_N,    ST_ENT)
+SUBS(KN_YU,   "yu",    KN_Q,    ST_ENT)
+// top
+SUBS(KN_XA,   "xa",     KN_BOU, ST_ENT)
+SUBS(KN_GO,   "go",     KN_NI,  ST_ENT)
+SUBS(KN_HU,   "hu",     KN_HA,  ST_ENT)
+SUBS(KN_XI,   "xi",     KN_TOU, ST_ENT)
+// bottom
+SUBS(KN_DU,   "du",     KN_SU,  ST_ENT)
+SUBS(KN_ZO,   "zo",     KN_MA,  ST_ENT)
+SUBS(KN_BO,   "bo",     KN_KI,  ST_ENT)
+SUBS(KN_MU,   "mu",     KN_RU,  ST_ENT)
+// blank
+
+// Right gyaku shift
+// home
+SUBS(KN_HE,   "he",    KN_KU,   ST_SPC)
+SUBS(KN_A,    "a",     KN_U,    ST_SPC)
+SUBS(KN_XYO,  "xyo",   KN_I,    ST_SPC)
+SUBS(KN_XYA,  "xya",   KN_SI,   ST_SPC)
+SUBS(KN_E,    "e",     KN_NA,   ST_SPC)
+// top
+// blank
+SUBS(KN_PA,   "pa",     KN_BA,  ST_SPC)
+SUBS(KN_YO,   "yo",     KN_KO,  ST_SPC)
+SUBS(KN_MI,   "mi",     KN_GA,  ST_SPC)
+SUBS(KN_XWA,  "xwa",    KN_HI,  ST_SPC)
+// bottom
+SUBS(KN_SE,   "se",     KN_TE,  ST_SPC)
+SUBS(KN_NE,   "ne",     KN_TA,  ST_SPC)
+SUBS(KN_BE,   "be",     KN_DE,  ST_SPC)
+SUBS(KN_PU,   "pu",     KN_TEN, ST_SPC)
+SUBS(KN_VU,   "vu",     KN_BU,  ST_SPC)
+
+// Left ura shift
+// home
+SUBS(KN_WO,   "wo",    KN_NO,   ST_SPC)
+SUBS(KN_SA,   "sa",    KN_TO,   ST_SPC)
+SUBS(KN_O,    "o",     KN_KA,   ST_SPC)
+SUBS(KN_RI,   "ri",    KN_N,    ST_SPC)
+SUBS(KN_ZU,   "zu",    KN_Q,    ST_SPC)
+// top
+SUBS(KN_DI,   "di",     KN_BOU, ST_SPC)
+SUBS(KN_ME,   "me",     KN_NI,  ST_SPC)
+SUBS(KN_KE,   "ke",     KN_HA,  ST_SPC)
+SUBS(KN_XI,   "xi",     KN_TOU, ST_SPC)
+//blank
+// bottom
+SUBS(KN_ZE,   "ze",     KN_SU,  ST_SPC)
+SUBS(KN_ZA,   "za",     KN_MA,  ST_SPC)
+SUBS(KN_GI,   "gi",     KN_KI,  ST_SPC)
+SUBS(KN_RO,   "ro",     KN_RU,  ST_SPC)
+SUBS(KN_NU,   "nu",     KN_TU,  ST_SPC)
+
+// Right ura shift
+// home
+SUBS(KN_BI,   "bi",    KN_KU,   KN_ENT)
+SUBS(KN_RA,   "ra",    KN_U,    KN_ENT)
+// zi chord again
+// sa chord again
+SUBS(KN_SO,   "so",    KN_NA,   KN_ENT)
+// top
+SUBS(KN_SYE,  "sye",    KN_GU,  KN_ENT)
+SUBS(KN_PE,   "pe",     KN_BA,  KN_ENT)
+SUBS(KN_DO,   "do",     KN_KO,  KN_ENT)
+SUBS(KN_YA,   "ya",     KN_GA,  KN_ENT)
+SUBS(KN_ZYE,  "zye",    KN_HI,  KN_ENT)
+SUBS(KN_GIM,  "?",      KN_GE,  KN_ENT) // non-standard
+// bottom
+SUBS(KN_WA,   "wa",     KN_TE,  KN_ENT)
+SUBS(KN_DA,   "da",     KN_TA,  KN_ENT)
+SUBS(KN_PI,   "pi",     KN_DE,  KN_ENT)
+SUBS(KN_PO,   "po",     KN_TEN, KN_ENT)
+SUBS(KN_TYE,  "tye",    KN_BU,  KN_ENT)

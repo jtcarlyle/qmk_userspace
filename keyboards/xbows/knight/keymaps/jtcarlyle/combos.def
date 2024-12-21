@@ -1,0 +1,153 @@
+// Karashi combos
+COMBO_REF_LAYER(_DVORAK, _DVORAK)
+COMBO_REF_LAYER(_KANA, _KANA)
+
+// Using custom “romaji” definitions
+// left cross
+SUBS(DV_YA,   "-'", KC_QUOT, ST_ENT)
+SUBS(DV_SO,   "-,", KC_COMM, ST_ENT)
+SUBS(DV_NU,   "-.", KC_DOT,  ST_ENT)
+SUBS(DV_PA,   "-p", KC_P,    ST_ENT)
+SUBS(DV_HO,   "-y", KC_Y,    ST_ENT)
+SUBS(DV_MO,   "-a", KC_A,    ST_ENT)
+SUBS(DV_RA,   "-o", KC_O,    ST_ENT)
+SUBS(DV_BOU,  "-e", KC_E,    ST_ENT)
+SUBS(DV_A,    "-u", KC_U,    ST_ENT)
+SUBS(DV_NE,   "-i", KC_I,    ST_ENT)
+SUBS(DV_JA,   "-;", KC_SCLN, ST_ENT)
+SUBS(DV_WE,   "-q", KC_Q,    ST_ENT)
+SUBS(DV_YO,   "-j", KC_J,    ST_ENT)
+SUBS(DV_RO,   "-k", KC_K,    ST_ENT)
+SUBS(DV_PO,   "-x", KC_X,    ST_ENT)
+
+// left same
+SUBS(DV_LQT,  "/'", KC_QUOT, ST_SPC)
+SUBS(DV_ZO,   "/,", KC_COMM, ST_SPC)
+SUBS(DV_BA,   "/.", KC_DOT,  ST_SPC)
+SUBS(DV_NAKA, "/p", KC_P,    ST_SPC)
+SUBS(DV_BO,   "/y", KC_Y,    ST_SPC)
+SUBS(DV_DA,   "/a", KC_A,    ST_SPC)
+SUBS(DV_DE,   "/o", KC_O,    ST_SPC)
+SUBS(DV_GA,   "/e", KC_E,    ST_SPC)
+SUBS(DV_DO,   "/u", KC_U,    ST_SPC)
+SUBS(DV_ZA,   "/i", KC_I,    ST_SPC)
+SUBS(DV_XO,   "/;", KC_SCLN, ST_SPC)
+SUBS(DV_XE,   "/q", KC_Q,    ST_SPC)
+SUBS(DV_XU,   "/j", KC_J,    ST_SPC)
+SUBS(DV_XI,   "/k", KC_K,    ST_SPC)
+SUBS(DV_XA,   "/x", KC_X,    ST_SPC)
+
+// right cross
+SUBS(DV_PE,   "-f", KC_F,    ST_SPC)
+SUBS(DV_WI,   "-g", KC_G,    ST_SPC)
+SUBS(DV_ME,   "-c", KC_C,    ST_SPC)
+SUBS(DV_WA,   "-r", KC_R,    ST_SPC)
+SUBS(DV_PI,   "-l", KC_L,    ST_SPC)
+SUBS(DV_E,    "-d", KC_D,    ST_SPC)
+SUBS(DV_RE,   "-h", KC_H,    ST_SPC)
+SUBS(DV_KE,   "-t", KC_T,    ST_SPC)
+SUBS(DV_HU,   "-n", KC_N,    ST_SPC)
+SUBS(DV_HI,   "-s", KC_S,    ST_SPC)
+SUBS(DV_HE,   "-b", KC_B,    ST_SPC)
+SUBS(DV_YU,   "-m", KC_M,    ST_SPC)
+SUBS(DV_KI,   "-w", KC_W,    ST_SPC)
+SUBS(DV_PU,   "-v", KC_V,    ST_SPC)
+SUBS(DV_MU,   "-z", KC_Z,    ST_SPC)
+
+// right same
+SUBS(DV_DI,   "/f", KC_F,    ST_ENT)
+SUBS(DV_ZE,   "/g", KC_G,    ST_ENT)
+SUBS(DV_GU,   "/c", KC_C,    ST_ENT)
+SUBS(DV_GO,   "/r", KC_R,    ST_ENT)
+SUBS(DV_RQT,  "/l", KC_L,    ST_ENT)
+SUBS(DV_ZU,   "/d", KC_D,    ST_ENT)
+SUBS(DV_ZI,   "/h", KC_H,    ST_ENT)
+SUBS(DV_GE,   "/t", KC_T,    ST_ENT)
+SUBS(DV_BU,   "/n", KC_N,    ST_ENT)
+SUBS(DV_BI,   "/s", KC_S,    ST_ENT)
+SUBS(DV_BE,   "/b", KC_B,    ST_ENT)
+SUBS(DV_VA,   "/m", KC_M,    ST_ENT)
+SUBS(DV_GI,   "/w", KC_W,    ST_ENT)
+SUBS(DV_DU,   "/v", KC_V,    ST_ENT)
+SUBS(DV_VU,   "/z", KC_Z,    ST_ENT)
+
+// Using default romaji definition
+// Left gyaku shift
+// top
+SUBS(KN_YA,   "ya",     KN_JO,   ST_ENT) // SUBS uses SEND_STRING to output the given string.
+SUBS(KN_SO,   "so",     KN_NI,   ST_ENT)
+SUBS(KN_NU,   "nu",     KN_HA,   ST_ENT)
+SUBS(KN_PA,   "pa",     KN_TEN,  ST_ENT)
+SUBS(KN_HO,   "ho",     KN_JU,   ST_ENT)
+// home
+SUBS(KN_MO,   "mo",     KN_TA,   ST_ENT)
+SUBS(KN_RA,   "ra",     KN_TE,   ST_ENT)
+SUBS(KN_BOU,  "-",      KN_KA,   ST_ENT)
+SUBS(KN_A,    "a",      KN_TO,   ST_ENT)
+SUBS(KN_NE,   "ne",     KN_SA,   ST_ENT)
+// bottom
+SUBS(KN_JA,   "xya",    KN_RU,   ST_ENT)
+SUBS(KN_WE,   "wye",    KN_WO,   ST_ENT)
+SUBS(KN_YO,   "yo",     KN_MA,   ST_ENT)
+SUBS(KN_RO,   "ro",     KN_NO,   ST_ENT)
+SUBS(KN_PO,   "po",     KN_MARU, ST_ENT)
+
+// Left ura shift
+// top
+SUBS(KN_LQT,  "[",      KN_JO,   ST_SPC)
+SUBS(KN_ZO,   "zo",     KN_NI,   ST_SPC)
+SUBS(KN_BA,   "ba",     KN_HA,   ST_SPC)
+SUBS(KN_NAKA, "/",      KN_TEN,  ST_SPC)
+SUBS(KN_BO,   "bo",     KN_JU,   ST_SPC)
+// home
+SUBS(KN_DA,   "da",     KN_TA,   ST_SPC)
+SUBS(KN_DE,   "de",     KN_TE,   ST_SPC)
+SUBS(KN_GA,   "ga",     KN_KA,   ST_SPC)
+SUBS(KN_DO,   "do",     KN_TO,   ST_SPC)
+SUBS(KN_ZA,   "za",     KN_SA,   ST_SPC)
+// bottom
+SUBS(KN_XO,   "xo",     KN_RU,   ST_SPC)
+SUBS(KN_XE,   "xe",     KN_WO,   ST_SPC)
+SUBS(KN_XU,   "xu",     KN_MA,   ST_SPC)
+SUBS(KN_XI,   "xi",     KN_NO,   ST_SPC)
+SUBS(KN_XA,   "xa",     KN_MARU, ST_SPC)
+
+// Right gyaku shift
+// top
+SUBS(KN_PE,   "pe",     KN_TI,  ST_SPC)
+SUBS(KN_WI,   "wyi",    KN_SE,  ST_SPC)
+SUBS(KN_ME,   "me",     KN_KU,  ST_SPC)
+SUBS(KN_WA,   "wa",     KN_KO,  ST_SPC)
+SUBS(KN_PI,   "pi",     KN_O,   ST_SPC)
+// home
+SUBS(KN_E,    "e",      KN_SU,  ST_SPC)
+SUBS(KN_RE,   "re",     KN_SI,  ST_SPC)
+SUBS(KN_KE,   "ke",     KN_U,   ST_SPC)
+SUBS(KN_HU,   "hu",     KN_I,   ST_SPC)
+SUBS(KN_HI,   "hi",     KN_N,   ST_SPC)
+// bottom
+SUBS(KN_HE,   "he",     KN_RI,  ST_SPC)
+SUBS(KN_YU,   "yu",     KN_NA,  ST_SPC)
+SUBS(KN_MI,   "mi",     KN_KI,  ST_SPC)
+SUBS(KN_PU,   "pu",     KN_TU,  ST_SPC)
+SUBS(KN_MU,   "mu",     KN_Q,   ST_SPC)
+
+// Right ura shift
+// top
+SUBS(KN_DI,   "di",     KN_TI,  ST_ENT)
+SUBS(KN_ZE,   "ze",     KN_SE,  ST_ENT)
+SUBS(KN_GU,   "gu",     KN_KU,  ST_ENT)
+SUBS(KN_GO,   "go",     KN_KO,  ST_ENT)
+SUBS(KN_RQT,  "]",      KN_O,   ST_ENT)
+// home
+SUBS(KN_ZU,   "zu",     KN_SU,  ST_ENT)
+SUBS(KN_JI,   "ji",     KN_SI,  ST_ENT)
+SUBS(KN_GE,   "ge",     KN_U,   ST_ENT)
+SUBS(KN_BU,   "bu",     KN_I,   ST_ENT)
+SUBS(KN_BI,   "bi",     KN_N,   ST_ENT)
+// bottom
+SUBS(KN_BE,   "be",     KN_RI,  ST_ENT)
+SUBS(KN_XWA,  "xwa",    KN_NA,  ST_ENT)
+SUBS(KN_GI,   "gi",     KN_KI,  ST_ENT)
+SUBS(KN_DU,   "du",     KN_TU,  ST_ENT)
+SUBS(KN_VU,   "vu",     KN_Q,   ST_ENT)

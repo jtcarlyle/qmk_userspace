@@ -1,0 +1,5 @@
+* Important
+
+As far as I can tell, there is no physical (external?) way to put the Knight keyboard in bootloader mode to flash firmware. This means that the ~QK_BOOT~ key /must/ be present in any keymap that gets flashed! Otherwise, you are permanently (?) locked out of flashing firmware. This has made me rethink rewriting the =LAYOUT= macro. If I make a mistake and the firmware does not flash correctly, I might not be able to use the keyboard anymore. Worse, this might happen with /any/ mistakes I make. Scary stuff. Always check all compile errors thoroughly before flashing anything!
+
+First thing that I'm going to do right now is see if I can still flash the default firmware first. It means that I won't be able to use Dvorak for a minute. Maybe I should program the new keymap first? Okay, but make it as simple as possible.

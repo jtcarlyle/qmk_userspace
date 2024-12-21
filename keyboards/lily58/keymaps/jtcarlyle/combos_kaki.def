@@ -1,0 +1,83 @@
+// Kaki combos
+COMBO_REF_LAYER(_KAKI, _KAKI)
+
+// Left gyaku shift
+// top
+SUBS(KN_PE,   "pe",     KN_TEN,  NAV_TAB)
+SUBS(KN_KE,   "ke",     KN_NA,   NAV_TAB)
+SUBS(KN_MO,   "mo",     KN_TE,   NAV_TAB)
+SUBS(KN_NU,   "nu",     KN_SE,   NAV_TAB)
+SUBS(KN_XWA,  "xwa",    KN_SO,   NAV_TAB)
+// home
+SUBS(KN_ME,   "me",     KN_KO,   NAV_TAB) // SUBS uses SEND_STRING to output the given string.
+SUBS(KN_WO,   "wo",     KN_TA,   NAV_TAB)
+SUBS(KN_MA,   "ma",     KN_KA,   NAV_TAB)
+SUBS(KN_SA,   "sa",     KN_RU,   NAV_TAB)
+SUBS(KN_YA,   "ya",     KN_HA,   NAV_TAB)
+// bottom
+SUBS(KN_CLN,  ":",      KN_YU,   NAV_TAB)
+SUBS(KN_HO,   "ho",     KN_XYU,  NAV_TAB)
+SUBS(KN_YO,   "yo",     KN_XYO,  NAV_TAB)
+SUBS(KN_HU,   "hu",     KN_RO,   NAV_TAB)
+SUBS(KN_PI,   "pi",     KN_XYA,  NAV_TAB)
+
+// Left ura shift
+// top
+SUBS(KN_PA,   "pa",     KN_TEN,  SM_BSPC)
+SUBS(KN_GE,   "ge",     KN_NA,   SM_BSPC)
+SUBS(KN_DE,   "de",     KN_TE,   SM_BSPC)
+SUBS(KN_ZE,   "ze",     KN_SE,   SM_BSPC)
+SUBS(KN_ZO,   "zo",     KN_SO,   SM_BSPC)
+// home
+SUBS(KN_GO,   "go",     KN_KO,   SM_BSPC)
+SUBS(KN_DA,   "da",     KN_TA,   SM_BSPC)
+SUBS(KN_GA,   "ga",     KN_KA,   SM_BSPC)
+SUBS(KN_ZA,   "za",     KN_RU,   SM_BSPC)
+SUBS(KN_BA,   "ba",     KN_HA,   SM_BSPC)
+
+// bottom
+SUBS(KN_PO,   "po",     KN_YU,   SM_BSPC)
+SUBS(KN_BO,   "bo",     KN_XYU,  SM_BSPC)
+SUBS(KN_PU,   "pu",     KN_XYO,  SM_BSPC)
+SUBS(KN_BU,   "bu",     KN_RO,   SM_BSPC)
+SUBS(KN_VU,   "vu",     KN_XYA,  SM_BSPC)
+
+// Right gyaku shift
+// top
+SUBS(KN_NAKA, "/",      KN_MI,  SM_BSPC)
+SUBS(KN_HI,   "hi",     KN_O,   SM_BSPC)
+SUBS(KN_KI,   "ki",     KN_NO,  SM_BSPC)
+SUBS(KN_TU,   "tu",     KN_NI,  SM_BSPC)
+SUBS(KN_RQT,  "]",      KN_TOU, SM_BSPC)
+// home
+SUBS(KN_MU,   "mu",     KN_BIKI, SM_BSPC)
+SUBS(KN_RE,   "re",     KN_N,    SM_BSPC)
+SUBS(KN_KU,   "ku",     KN_I,    SM_BSPC)
+SUBS(KN_RI,   "ri",     KN_SI,   SM_BSPC)
+SUBS(KN_WA,   "wa",     KN_TO,   SM_BSPC)
+// bottom
+SUBS(KN_GIM,  "?",      KN_Q,   SM_BSPC)
+SUBS(KN_A,    "a",      KN_U,   SM_BSPC)
+SUBS(KN_NE,   "ne",     KN_SU,  SM_BSPC)
+SUBS(KN_TI,   "ti",     KN_RA,  SM_BSPC)
+SUBS(KN_HE,   "he",     KN_E,   SM_BSPC)
+
+// Right ura shift
+// top
+SUBS(KN_XU,   "xu",     KN_MI,  NAV_TAB)
+SUBS(KN_BI,   "bi",     KN_O,   NAV_TAB)
+SUBS(KN_GI,   "gi",     KN_NO,  NAV_TAB)
+SUBS(KN_DU,   "du",     KN_NI,  NAV_TAB)
+SUBS(KN_LQT,  "[",      KN_TOU, NAV_TAB)
+// home
+SUBS(KN_XI,   "xi",     KN_BIKI, NAV_TAB)
+SUBS(KN_XA,   "xa",     KN_N,    NAV_TAB)
+SUBS(KN_GU,   "gu",     KN_I,    NAV_TAB)
+SUBS(KN_ZI,   "zi",     KN_SI,   NAV_TAB)
+SUBS(KN_DO,   "do",     KN_TO,   NAV_TAB)
+// bottom
+SUBS(KN_XO,   "xo",     KN_Q,   NAV_TAB)
+SUBS(KN_XE,   "xe",     KN_U,   NAV_TAB)
+SUBS(KN_ZU,   "zu",     KN_SU,  NAV_TAB)
+SUBS(KN_DI,   "di",     KN_RA,  NAV_TAB)
+SUBS(KN_BE,   "be",     KN_E,   NAV_TAB)

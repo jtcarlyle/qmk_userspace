@@ -1,0 +1,156 @@
+// Singeta combos
+COMBO_REF_LAYER(_SINGETA, _SINGETA)
+
+// right middle finger I
+// home
+SUBS(KN_HO,   "ho",    KN_NO,   KN_I) // SUBS uses SEND_STRING to output the given string.
+SUBS(KN_ZI,   "zi",    KN_TO,   KN_I)
+SUBS(KN_RE,   "re",    KN_KA,   KN_I)
+SUBS(KN_MO,   "mo",    KN_N,    KN_I)
+SUBS(KN_YU,   "yu",    KN_Q,    KN_I)
+// top
+SUBS(KN_FA,   "fa",     KN_BOU, KN_I)
+SUBS(KN_GO,   "go",     KN_NI,  KN_I)
+SUBS(KN_HU,   "hu",     KN_HA,  KN_I)
+SUBS(KN_FI,   "fi",     KN_TOU, KN_I)
+SUBS(KN_FE,   "fe",     KN_TI,  KN_I)
+// bottom
+SUBS(KN_DU,   "du",     KN_SU,  KN_I)
+SUBS(KN_ZO,   "zo",     KN_MA,  KN_I)
+SUBS(KN_BO,   "bo",     KN_KI,  KN_I)
+SUBS(KN_MU,   "mu",     KN_RU,  KN_I)
+SUBS(KN_FO,   "fo",     KN_TU,  KN_I)
+// numbers
+SUBS(KN_XA,   "xa",     KC_1,   KN_I)
+SUBS(KN_XI,   "xi",     KC_2,   KN_I)
+SUBS(KN_XU,   "xu",     KC_3,   KN_I)
+SUBS(KN_XE,   "xe",     KC_4,   KN_I)
+SUBS(KN_XO,   "xo",     KC_5,   KN_I)
+
+// left middle finger KA
+// home
+SUBS(KN_HE,   "he",    KN_KU,   KN_KA)
+SUBS(KN_A,    "a",     KN_U,    KN_KA)
+// re in chord again
+// o chord below
+SUBS(KN_E,    "e",     KN_NA,   KN_KA)
+// top
+SUBS(KN_UXI,  "uxi",    KN_GU,  KN_KA)
+SUBS(KN_PA,   "pa",     KN_BA,  KN_KA)
+SUBS(KN_YO,   "yo",     KN_KO,  KN_KA)
+SUBS(KN_MI,   "mi",     KN_GA,  KN_KA)
+SUBS(KN_UXE,  "uxe",    KN_HI,  KN_KA)
+SUBS(KN_UXO,  "uxo",    KN_GE,  KN_KA)
+// bottom
+SUBS(KN_SE,   "se",     KN_TE,  KN_KA)
+SUBS(KN_NE,   "ne",     KN_TA,  KN_KA)
+SUBS(KN_BE,   "be",     KN_DE,  KN_KA)
+SUBS(KN_PU,   "pu",     KN_TEN, KN_KA)
+SUBS(KN_VU,   "vu",     KN_BU,  KN_KA)
+// numbers
+// latin comma, how to implement?
+SUBS(KN_LKAG, "[",      KC_8,   KN_KA)
+SUBS(KN_RKAG, "]",      KC_9,   KN_KA)
+SUBS(KN_SCLN, ";",      KC_0,   KN_KA)
+SUBS(KN_AT,   "@",      KC_EQL, KN_KA) // fix later
+
+// right ring finger SI
+// home
+SUBS(KN_WO,   "wo",    KN_NO,   KN_SI)
+SUBS(KN_SA,   "sa",    KN_TO,   KN_SI)
+SUBS(KN_O,    "o",     KN_KA,   KN_SI)
+SUBS(KN_RI,   "ri",    KN_N,    KN_SI)
+SUBS(KN_ZU,   "zu",    KN_Q,    KN_SI)
+// top
+SUBS(KN_DI,   "di",     KN_BOU, KN_SI)
+SUBS(KN_ME,   "me",     KN_NI,  KN_SI)
+SUBS(KN_KE,   "ke",     KN_HA,  KN_SI)
+SUBS(KN_THI,  "thi",    KN_TOU, KN_SI)
+SUBS(KN_DHI,  "dhi",    KN_TI,  KN_SI)
+// bottom
+SUBS(KN_ZE,   "ze",     KN_SU,  KN_SI)
+SUBS(KN_ZA,   "za",     KN_MA,  KN_SI)
+SUBS(KN_GI,   "gi",     KN_KI,  KN_SI)
+SUBS(KN_RO,   "ro",     KN_RU,  KN_SI)
+SUBS(KN_NU,   "nu",     KN_TU,  KN_SI)
+// numbers
+SUBS(KN_XYA,   "xya",     KC_1,   KN_SI)
+SUBS(KN_MYA,   "mya",     KC_2,   KN_SI)
+SUBS(KN_MYU,   "myu",     KC_3,   KN_SI)
+SUBS(KN_MYO,   "myo",     KC_4,   KN_SI)
+SUBS(KN_XWA,   "xwa",     KC_5,   KN_SI)
+
+// left ring finger TO
+// home
+SUBS(KN_BI,   "bi",    KN_KU,   KN_TO)
+SUBS(KN_RA,   "ra",    KN_U,    KN_TO)
+// zi chord again
+// sa chord again
+SUBS(KN_SO,   "so",    KN_NA,   KN_TO)
+// top
+SUBS(KN_SYE,  "sye",    KN_GU,  KN_TO)
+SUBS(KN_PE,   "pe",     KN_BA,  KN_TO)
+SUBS(KN_DO,   "do",     KN_KO,  KN_TO)
+SUBS(KN_YA,   "ya",     KN_GA,  KN_TO)
+SUBS(KN_ZYE,  "zye",    KN_HI,  KN_TO)
+SUBS(KN_GIM,  "?",      KN_GE,  KN_TO) // non-standard
+// bottom
+SUBS(KN_WA,   "wa",     KN_TE,  KN_TO)
+SUBS(KN_DA,   "da",     KN_TA,  KN_TO)
+SUBS(KN_PI,   "pi",     KN_DE,  KN_TO)
+SUBS(KN_PO,   "po",     KN_TEN, KN_TO)
+SUBS(KN_TYE,  "tye",    KN_BU,  KN_TO)
+
+// right middle finger KO
+// home
+SUBS(KN_HYO,  "hyo",    KN_NO,  KN_KO)
+// taken
+// taken
+SUBS(KN_KYO,  "kyo",    KN_N,   KN_KO)
+SUBS(KN_TYO,  "tyo",    KN_Q,   KN_KO)
+// top
+SUBS(KN_HYU,  "hyu",    KN_BOU, KN_KO)
+SUBS(KN_SYU,  "syu",    KN_NI,  KN_KO)
+SUBS(KN_SYO,  "syo",    KN_HA,  KN_KO)
+SUBS(KN_KYU,  "kyu",    KN_TOU, KN_KO)
+SUBS(KN_TYU,  "tyu",    KN_TI,  KN_KO)
+// bottom
+SUBS(KN_HYA,  "hya",    KN_SU,  KN_KO)
+// nil?
+SUBS(KN_SYA,  "sya",    KN_KI,  KN_KO)
+SUBS(KN_KYA,  "kya",    KN_RU,  KN_KO)
+SUBS(KN_TYA,  "tya",    KN_TU,  KN_KO)
+// numbers
+SUBS(KN_XYU,  "xyu",    KC_1,   KN_KO)
+SUBS(KN_BYA,  "bya",    KC_2,   KN_KO)
+SUBS(KN_BYU,  "byu",    KC_3,   KN_KO)
+SUBS(KN_BYO,  "byo",    KC_4,   KN_KO)
+
+// right ring finger ga
+// home
+SUBS(KN_RYO,  "ryo",    KN_NO,  KN_GA)
+// taken
+// taken
+SUBS(KN_GYO,  "gyo",    KN_N,   KN_GA)
+SUBS(KN_NYO,  "nyo",    KN_Q,   KN_GA)
+// top
+SUBS(KN_RYU,  "ryu",    KN_BOU, KN_GA)
+SUBS(KN_ZYU,  "zyu",    KN_NI,  KN_GA)
+SUBS(KN_ZYO,  "zyo",    KN_HA,  KN_GA)
+SUBS(KN_GYU,  "gyu",    KN_TOU, KN_GA)
+SUBS(KN_NYU,  "nyu",    KN_TI,  KN_GA)
+// bottom
+SUBS(KN_RYA,  "rya",    KN_SU,  KN_GA)
+// nil?
+SUBS(KN_ZYA,  "zya",    KN_KI,  KN_GA)
+SUBS(KN_GYA,  "gya",    KN_RU,  KN_GA)
+SUBS(KN_NYA,  "nya",    KN_TU,  KN_GA)
+// numbers
+SUBS(KN_XYO,  "xyu",    KC_1,   KN_GA)
+SUBS(KN_PYA,  "pya",    KC_2,   KN_GA)
+SUBS(KN_PYU,  "pyu",    KC_3,   KN_GA)
+SUBS(KN_PYO,  "pyo",    KC_4,   KN_GA)
+
+// omitted other complicated punctuation for now
+// involves chords in middle of keyboard
+// treats both full and halfwidth punctuation
