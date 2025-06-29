@@ -13,6 +13,7 @@ enum custom_layers {
 /* dual purpose mod/layer-tap keys */
 #define ST_SPC  LSFT_T(KC_SPC)
 #define ST_ENT  RSFT_T(KC_ENT)
+#define CT_ENT  LCTL_T(KC_ENT)
 #define LO_TAB LT(_LOWER, KC_TAB)
 #define RA_BSPC LT(_RAISE, KC_BSPC)
 #define AT_ESC  LALT_T(KC_ESC)
@@ -53,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LGUI, KC_SCLN, KC_Q,    KC_J,    KC_K,    KC_X,    KC_LBRC,          KC_RBRC, KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_RGUI,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    KC_LCTL, ST_SPC,  LO_TAB,                    RA_BSPC, ST_ENT,  KC_RCTL
+                                     CT_ENT, ST_SPC,  LO_TAB,                    RA_BSPC, KC_RSFT,  KC_RCTL
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
 
